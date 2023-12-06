@@ -26,7 +26,7 @@ SECRET_KEY = ";p!DTkjfhR$;U67T*Ye>@4Y~ds,,YDTVRk}Vd97'[#TjIq>!6f"
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ["127.0.0.1", "localhost", "0.0.0.0:8000", "192.168.178.41","BastianFriedrich.pythonanywhere.com"]
+ALLOWED_HOSTS = ["127.0.0.1", "localhost", "0.0.0.0:8000", "192.168.178.41","laxout.pythonanywhere.com"]
 
 
 # Application definition
@@ -55,7 +55,7 @@ MIDDLEWARE = [
     "corsheaders.middleware.CorsMiddleware",
 ]
 CORS_ALLOWED_ORIGINS = [
-    "https://BastianFriedrich.pythonanywhere.com",
+    "https://laxout.pythonanywhere.com",
 ]
 
 
@@ -86,10 +86,10 @@ WSGI_APPLICATION = "laxout.wsgi.application"
 DATABASES = {
     "default": {
         "ENGINE": "django.db.backends.sqlite3",
-        'NAME': 'BastianFriedrich$laxoutdatabase',
-        'USER': 'BastianFriedrich',
+        'NAME': 'laxout$laxoutdatabase',
+        'USER': 'laxout',
         'PASSWORD': '!BidkMaG25,5nE!',
-        'HOST': 'BastianFriedrich.mysql.pythonanywhere-services.com',
+        'HOST': 'laxout.mysql.pythonanywhere-services.com',
         'PORT': '',
     }
 }
@@ -131,7 +131,7 @@ USE_TZ = True
 
 STATIC_URL = "static/"
 MEDIA_URL = '/media/'
-MEDIA_ROOT = '/home/BastianFriedrich/mysite/media'
+MEDIA_ROOT = '/home/laxout/mysite/media'
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR, 'static'),
 ]
