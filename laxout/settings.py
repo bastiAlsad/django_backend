@@ -55,7 +55,7 @@ MIDDLEWARE = [
     "corsheaders.middleware.CorsMiddleware",
 ]
 CORS_ALLOWED_ORIGINS = [
-    "https://laxout.pythonanywhere.com",
+    "laxout.pythonanywhere.com",
 ]
 
 
@@ -131,8 +131,8 @@ USE_TZ = True
 
 STATIC_URL = "static/"
 MEDIA_URL = '/media/'
-MEDIA_ROOT = '/home/laxout/mysite/media'
-STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
+MEDIA_ROOT = '/home/laxout/laxout/media'
+STATIC_ROOT = '/home/laxout/laxout_backend/static'
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR, 'static'),
 ]
