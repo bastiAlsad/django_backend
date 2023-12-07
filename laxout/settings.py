@@ -86,10 +86,10 @@ WSGI_APPLICATION = "laxout.wsgi.application"
 DATABASES = {
     "default": {
         "ENGINE": "django.db.backends.sqlite3",
-        'NAME': 'laxout$laxoutdatabase',
-        'USER': 'laxout',
+        'NAME': 'axoutapp$laxoutdatabase',
+        'USER': 'laxoutapp',
         'PASSWORD': '!BidkMaG25,5nE!',
-        'HOST': 'laxout.mysql.pythonanywhere-services.com',
+        'HOST': 'laxoutapp.mysql.pythonanywhere-services.com',
         'PORT': '',
     }
 }
