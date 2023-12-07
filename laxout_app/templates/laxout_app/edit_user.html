@@ -131,7 +131,7 @@
 
 </div>
 <script>
-    var url = "http://127.0.0.1:8000/laxout/show-login-code"+"{{users.access_code}}";
+    var url = "https://laxoutapp.pythonanywhere.com/laxout/show-login-code/{{users.access_code}}";
 
     // Erstelle den QR-Code
     var qrcode = new QRCode(document.getElementById("qrcode"), {
